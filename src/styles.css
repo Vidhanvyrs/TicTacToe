@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: sans-serif;
+  margin: 20px;
+  padding: 0;
+}
+
+h2 {
+  margin-bottom: 0;
+  margin-left: 90px;
+  color: rgb(243, 179, 66);
+  font-family: "Fredoka One", cursive;
+  font-size: 50px;
+}
+
+h3 {
+  margin-top: 0;
+  font-size: 18px;
+}
+
+h4 {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+h5 {
+  margin-top: 0;
+  font-size: 14px;
+}
+
+h6 {
+  margin-top: 0;
+  font-size: 12px;
+}
+
+code {
+  font-size: 1.2em;
+}
+
+ul {
+  padding-left: 20px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 20px;
+  padding: 0;
+  background-color: rgb(26, 43, 51);
+}
+
+.square {
+  background: rgb(30, 54, 64);
+  box-shadow: 0px 3px 6px rgb(15, 33, 43);
+  /* border: 1px solid #ffffff; */
+  border-radius: 10px;
+  float: left;
+  font-family: "Fredoka One", cursive;
+  color: rgb(243, 179, 66);
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: 10px;
+  height: 50px;
+  margin-right: 10px;
+  margin-top: 10px;
+  padding: 50px;
+  width: 50px;
+}
+
+.board-row {
+  margin-left: 554px;
+}
+
+.board-row:after {
+  clear: both;
+  content: "";
+  display: table;
+}
+
+.status {
+  width: 120px;
+  height: 50px;
+  padding: 12px;
+  border: 1px solid rgb(30, 54, 64);
+  background: rgb(30, 54, 64);
+  box-shadow: 0px 3px 6px rgb(15, 33, 43);
+  border-radius: 5px;
+  margin-left: 660px;
+  color: rgb(171, 193, 204);
+  font-family: "Fredoka One", cursive;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.game {
+  display: flex;
+  flex-direction: row;
+}
+
+.game-info {
+  margin-left: 20px;
+}
+
+.maingame {
+  margin-top: 40px;
+  text-align: center;
+}
+.refresh {
+  display: inline-block;
+  height: 50px;
+  width: 50px;
+  background: rgb(168, 190, 201);
+  border: 1px solid rgb(168, 190, 201);
+  box-shadow: 0 3px 6px rgba(106, 135, 146, 0.2);
+  border-radius: 10px;
+}
+.refresh-icon {
+  color: rgb(0, 0, 0);
+  font-size: 30px;
+}
+img {
+  max-width: 5%;
+  border-radius: 50px;
+  height: auto;
+  margin: 0 auto;
+}
+button:hover {
+  cursor: pointer;
+}
+.logo {
+  width: 70%;
+}
