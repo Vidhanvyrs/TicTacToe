@@ -38,7 +38,7 @@ function Board() {
   } else {
     if (player === "X") opposite = "O";
     if (player === "O") opposite = "X";
-    status = (xIsNext ? player : opposite) + " : " + "TURN";
+    status = `${xIsNext ? player : opposite} : TURN`;
   }
   if (!player) {
     return <Alert Oclicker={oclicker} Xclicker={xclicker} />;
