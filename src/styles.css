@@ -156,11 +156,12 @@ button:hover {
     line-height: 0px;
     width: 10%;
     height: 10%;
-    margin: 1px;
+    margin: 5px;
   }
 
   .status {
-    margin: 10px auto;
+    margin: 20px auto;
+    margin-bottom: 20px;
     width: 50%;
     font-size: 25px;
   }
