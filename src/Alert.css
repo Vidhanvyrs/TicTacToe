@@ -55,3 +55,27 @@
   color: rgb(30, 54, 64);
   background-color: rgb(243, 179, 66);
 }
+/* Target screens smaller than 768px */
+@media (max-width: 768px) {
+  .alert {
+    margin-top: 280px; /* Reduce margin from top for better placement */
+    padding: 20px; /* Reduce padding for better spacing on smaller screens */
+
+    .alertion {
+      font-size: 30px; /* Adjust font size for better readability */
+      margin-left: 0; /* Remove left margin for centering */
+      text-align: center;
+      padding: 0px;
+    }
+
+    .foroplayer,
+    .forxplayer {
+      font-size: 18px;
+      margin-top: 30px;
+      width: 40px;
+      height: 40px;
+      margin-left: 0px;
+      margin-right: 10px;
+    }
+  }
+}
