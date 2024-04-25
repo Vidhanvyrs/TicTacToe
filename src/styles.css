@@ -137,3 +137,38 @@ button:hover {
 .logo {
   width: 70%;
 }
+@media (max-width: 768px) {
+  .board-row {
+    margin-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .logo {
+    width: 100%;
+  }
+  img {
+    max-width: 15%;
+  }
+  .square {
+    font-size: 40px;
+    line-height: 0px;
+    width: 20%;
+    height: 20%;
+    margin: 5px;
+  }
+
+  .status {
+    margin: 10px auto;
+    width: 100%;
+    font-size: 25px;
+  }
+}
+@media (min-width: 768px) and (max-width: 992px) {
+  .board-row {
+    margin-left: 100px;
+  }
+
+  .square {
+    font-size: 40px;
+  }
+}
